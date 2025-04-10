@@ -1,8 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id=""
+        android:id="@+id/mConversas"
+        android:icon="@drawable/baseline_message"
+        android:title="Conversas"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mAtualizações"
+        android:icon="@drawable/baseline_history_toggle_off"
+        android:title="Atualizações"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mComunidades"
+        android:icon="@drawable/baseline_people"
+        android:title="Comunidades"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/mLigacoes"
+        android:icon="@drawable/baseline_local_phone"
+        android:title="Ligações"
+        app:showAsAction="ifRoom" />
 
 
 </menu>
