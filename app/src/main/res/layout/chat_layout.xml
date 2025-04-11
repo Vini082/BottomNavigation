@@ -8,13 +8,22 @@
     tools:context=".ChatActivity">
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:id="@+id/idWhats"
-        app:menu="@menu/menu_whats"
+        android:id="@+id/idBottomWhats"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        />
+        app:menu="@menu/menu_whats" />
 
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
 
+    <com.google.android.material.appbar.MaterialToolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/idBottomWhatsTop"
+        app:menu="@menu/menu_whats_top"
+        app:title="WhatsApp"/>
+    </com.google.android.material.appbar.AppBarLayout>
 
 </androidx.coordinatorlayout.widget.CoordinatorLayout>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/mCamera"
+        android:icon="@drawable/baseline_photo_camera"
+        android:title="Camera"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/mNovoGrupo"
+        android:title="Novo Grupo"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mNovaTransmissão"
+        android:title="Nova Transmissão"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mDispositivosConectados"
+        android:title="Dispositivos Conectados"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mMensagensFavoritas"
+        android:title="Mensagens Favoritas"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mEncontrarEmpresas"
+        android:title="Encontrar Empresas"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mPagamentos"
+        android:title="Pagamentos"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/mConfiguracoes"
+        android:title="Configurações"
+        app:showAsAction="never" />
+
+</menu>
