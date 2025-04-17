@@ -13,6 +13,12 @@
         android:theme="@style/Theme.MyApp"
         tools:targetApi="31">
         <activity
+            android:name=".SplashActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivit"
+            android:exported="false" />
+        <activity
             android:name=".ChatActivity"
             android:exported="true">
             <intent-filter>
@@ -23,9 +29,7 @@
         </activity>
         <activity
             android:name=".MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true" />
     </application>
 
 </manifest>
